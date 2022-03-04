@@ -1,0 +1,29 @@
+{
+  "name": "advice-generator-app",
+  "description": "Advice generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alexandre-st/advice-generator-app.git"
+  },
+  "author": "Alexandre-st",
+  "license": "ISC",
+  "keywords": [
+    "PARCEL",
+    "JS",
+    "SASS"
+  ],
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
+    "parcel": "^2.3.2"
+  }
+}
