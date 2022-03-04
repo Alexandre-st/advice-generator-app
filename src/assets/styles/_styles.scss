@@ -2,3 +2,80 @@
   font-size: 10px;
   font-family: "Manrope", sans-serif;
 }
+
+body {
+  background-color: #202733;
+}
+
+.main {
+  max-width: 54rem;
+  margin: auto;
+}
+
+.container {
+  background-color: #313a48;
+  text-align: center;
+  margin: 12rem 2.4rem;
+  border-radius: 10px;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+}
+
+.advice {
+  text-align: center;
+  padding: 4rem 2.4rem 2.4rem 2.4rem;
+
+  h1 {
+    color: #53ffaa;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 3.45714px;
+  }
+
+  p {
+    color: #cee3e9;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    letter-spacing: -0.257143px;
+    margin-top: 2.4rem;
+  }
+}
+
+.divide {
+  padding: 0 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  position: relative;
+  margin: auto;
+  top: 3rem;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: #53ffaa;
+
+  &:hover {
+    box-shadow: 0px 0px 40px #53ffaa;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin: 22.3rem 0 0 0;
+  }
+
+  .advice {
+    h1 {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+      letter-spacing: 4.08571px;
+    }
+
+    p {
+      font-size: 2.8rem;
+      line-height: 3.8rem;
+      letter-spacing: -0.3px;
+    }
+  }
+}

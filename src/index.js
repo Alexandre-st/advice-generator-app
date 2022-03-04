@@ -1,4 +1,3 @@
-
 const URL = "https://api.adviceslip.com/advice";
 const advice = document.querySelector('.advice');
 const button = document.querySelector('.button');
@@ -17,14 +16,16 @@ const fetchAdvice = async () => {
 
 fetchAdvice();
 
+// To show the advice
 const showAdvice = (data) => {
   const adviceHTML = `
     <h1>Advice #${data.slip.id}</h1>
-    <p>${data.slip.advice}</p>
+    <p>"${data.slip.advice}"</p>
   `;
   advice.innerHTML = adviceHTML;
 };
 
+// To create the event on the button
 button.addEventListener('click', (evt) => {
   evt.preventDefault();
 

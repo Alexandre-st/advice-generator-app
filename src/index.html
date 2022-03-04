@@ -10,21 +10,23 @@
 </head>
 <body>
 
-  <main class="container">
+  <main class="main">
 
-    <div class="advice">
-
+    <div class="div container">
+      <!-- To show the advice -->
+      <div class="advice"></div>
+  
+      <div class="divide">
+        <picture class="divide-img">
+          <source media="(min-width: 1024px)" srcset="./assets/images/pattern-divider-desktop.svg">
+          <img src="./assets/images/pattern-divider-mobile.svg" alt="Separation">
+        </picture>
+      </div>
+  
+      <button class="button">
+        <img src="./assets/images/icon-dice.svg" alt="Dice button">
+      </button>
     </div>
-
-    <div class="divide">
-      <picture class="divide-img">
-        <source media="(min-width: 1024px)" srcset="./assets/images/pattern-divider-desktop.svg">
-        <img src="./assets/images/pattern-divider-mobile.svg" alt="Separation">
-      </picture>
-    </div>
-    <button class="button">
-      <img src="./assets/images/icon-dice.svg" alt="Dice button">
-    </button>
   </main>
 
   <script src="index.js"></script>
