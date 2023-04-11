@@ -7,8 +7,8 @@ const fetchAdvice = async () => {
   const response = await fetch(`${URL}`);
   const data = await response.json();
 
-  console.log(data.slip.id);
-  console.log(data.slip.advice);
+  // console.log(data.slip.id);
+  // console.log(data.slip.advice);
   // Need to fetch the id and the advice
 
   showAdvice(data);
